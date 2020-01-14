@@ -1,1 +1,25 @@
-.image {float: right;}
+.elena {
+    border: 2px solid red  
+}
+
+.image {float: right;
+    border: 2px solid red
+}
+.proekt {
+    border: 2px solid red   
+}
+.yslygi {
+    border: 2px solid red  
+}
+.spisok {
+    border: 2px solid red
+}
+.proces {
+    border: 2px solid red
+}
+.perechen {
+    border: 2px solid red 
+}
+.kontakt {
+    border: 2px solid red  
+}
