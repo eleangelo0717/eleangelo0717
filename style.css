@@ -1,67 +1,92 @@
-* { margin: 0;
-  padding: 0;
+* {
+    box-sizing: border-box; 
+    margin:0; 
 } 
-body {width: 1200px;
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background: rgba(242, 221, 100, 0.4);
 }
-.header { 
-    display: inline-block;
-    width: 1200px;
-    border: 2px solid rgb(255, 110, 110)  
+header {
+    display: flex;
+    flex-flow:row-reverse;
+    padding: 0;
+   
+    border: 2px solid rgb(135, 114, 255);
+    height: 5vh; 
+}
+menu {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid rgb(110, 255, 117); 
+    font-size: 1em; 
+    list-style: none;
+    width: 60%;
+     
  }
- .header li {
-    display: inline-block; 
-    border: 2px solid rgb(255, 110, 110)   
- }
+
 .section_1 {
-    width: 1200px;
-    border: 2px solid rgb(135, 114, 255)   
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(135, 114, 255); 
+       
 }
-.section_2 {
-    width: 1200px;
-    border: 2px solid rgb(22, 22, 20)   
+.data {
+    width: 45%;
+    border: 2px solid red;   
 }
-.section_3 {
-    width: 1200px;
-    border: 2px solid rgb(135, 114, 255)   
+
+.image {  
+    width: 50%;
+    border: 2px solid red;
+}
+.section_2 { 
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(22, 22, 20);  
+    h  
+}
+.projects {
+    width: 45%;  
+    border: 2px solid red;       
+}
+.descr {
+    width: 50%;
+    border: 2px solid red;
+}
+
+.section_3 { 
+    display: flex; 
+    justify-content: space-around; 
+    border: 2px solid rgb(135, 114, 255); 
+      
+}
+.services { 
+    width: 45%;
+    border: 2px solid red; 
+}
+.services-list {
+    width: 50%; 
+    border: 2px solid red;
 }
 .section_4 {
-    width: 1200px;
-    border: 2px solid rgb(135, 114, 255)   
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgb(135, 114, 255);
+      
 }
-
-/*.block {
-    margin-bottom: 10px;
-    padding: 10px;  
-}*/
  
-.data {float: left;
-    width: 500px;
-    border: 2px solid red  
+.process {
+    width: 45%;
+    border: 2px solid red;
 }
-
-.image {float: right;
-    
-    width: 200px;
-    border: 2px solid red
-}
-.projects {width: 500px;
-    border: 2px solid red   
-}
-.services {width: 500px;
-    border: 2px solid red  
-}
-.list {
-    float: right;
-    width: 500px;
-    border: 2px solid red
-}
-.process {width: 500px;
-    border: 2px solid red
-}
-.perechen {width: 500px;
-    border: 2px solid red 
+.process-list {
+    width: 50%;
+    border: 2px solid red; 
 }
 .contacts {
     border: 2px solid red;
-    width: 1200px;
+    height: 15vh;
 }
